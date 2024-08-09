@@ -36,6 +36,7 @@
 
 .landpage{
             height: 500px;
+            
 }
 .landpage h2{
                background-color: black;
@@ -48,20 +49,23 @@
                color: white;
                text-align: center;
                padding-top: 3px;
-               margin-left: 35%;
+               margin-left: 40%;
                margin-top: 100px;
 }
 
+.landpage h2:hover{
+    background-image: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+}
 .landpage h1{ 
                color: white;
-              margin-left: 300px;
+              margin-left: 30%;
               margin-top: 40px;
           
 }
 
 .landpage p{
     color: white;
-    margin-left: 24%;
+    margin-left: 30%;
     text-align: justify;
 
 }
@@ -72,7 +76,7 @@
                    height: 50px;
                    background-color:black;
                    color: orangered;
-                  margin-left: 300px;
+                  margin-left: 500px;
                 margin-top: 50px;
                 font-weight: bold;
                
@@ -128,7 +132,7 @@
 }
 
 .page2{
-        
+        padding: 10px;
 }
 
 
@@ -149,6 +153,7 @@
                        background-color: black;
                        color: white;
                        margin-top: 50px;
+                       padding: 10px;
                        border-radius: 26px;
                        border: solid;
                        border-color: blueviolet;
@@ -168,7 +173,11 @@
 .page3{
          background-color: black;
          color: white;
-         padding: 50px;
+        
+}
+
+.page3 h1{
+              padding: 15px;
 }
 
 .page3 button{
@@ -194,6 +203,10 @@
             background-color: black;
 }
 
+.page4 p{
+           text-align: center;
+           font-weight: bold;
+}
 .image1{
     background-color: #46eefa;
      height: 350px;
@@ -253,14 +266,14 @@
 .page5 img{
              border-radius: 30px;
 }
-.page5 button{
+.page4 button{
                background-color: black;
                color: white;
                width: 200px;
                height: 50px;
                border-radius: 26px;
                text-align: center;
-               margin-left: 40%;
+               margin-left: 42%;
                margin-bottom: 30px;
                border: solid;
                border-color: blueviolet;
@@ -317,9 +330,11 @@ button:hover{
 }
 
 
-.foot1{
-         padding: 100px;
-
+footer{
+         
+        
+        padding: 100px;
+       
 
 }
 
