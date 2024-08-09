@@ -1,3 +1,12 @@
+.collapse{
+    
+    margin-left: 100px;
+}
+
+
+
+
+
 .menu ul{
 
     margin-left: 200px;
@@ -51,6 +60,7 @@
                padding-top: 3px;
                margin-left: 40%;
                margin-top: 100px;
+               cursor: pointer;
 }
 
 .landpage h2:hover{
@@ -313,6 +323,7 @@ button:hover{
            transition: transform 0.5s;
            height: 300px;
            border-radius: 20px;
+           cursor: pointer;
 }
 
 .shop img:hover{
@@ -321,9 +332,12 @@ button:hover{
                  transform: scale(0.9);
 }
 .shop h3{
-          padding-top: 20px;
+          
           text-align: center;
+          padding: 2px;
           background: linear-gradient(to right, #f32170, #ff6b08,#cf23cf, #eedd44);
+          height: 40px;
+          cursor: pointer;
          
      
 }
